@@ -1,0 +1,154 @@
+
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+
+
+.navbar-brand:hover{
+    
+    color: red;
+    cursor: pointer;
+    text-transform: uppercase;
+   
+}
+.nav-item{
+    padding-right: 50px;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.main{
+    background-image: url(https://wallpaper.dog/large/10930446.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+
+}
+.container{
+    color: white;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.btn1{
+    height: 55px;
+    width: 140px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 118, 11);
+    transition: 0.5s;
+}
+.btn1:hover{
+    background-color: rgb(39, 213, 94);
+}
+.details{
+    margin-top: -50px;
+    
+
+}
+.details h4{
+    font-size: x-large;
+    font-weight: 700;
+    color: red;
+}
+.details a{
+    text-decoration: none;
+    color: red;
+}
+.back:hover{
+    color: white;
+    cursor: pointer;
+}
+.back{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    transition:all 0.8s;
+
+}
+.back::before{
+    content: "";
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #97094269;
+    z-index: -1;
+    transition: all 0.8s;
+}
+.back:hover::before{
+    height: 100%;
+}
+
+
+
+
+.footer{
+    background-color: rgb(23, 8, 44);
+    color: white;
+}
+.footer h4{
+    font-weight: 900;
+}
+.footer p{
+    margin: 0;
+    color: teal;
+}
+
+.footer .card{
+    background-color: black;
+    font-style: italic;
+  
+}
+
+
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #09487c;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #011a22;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
